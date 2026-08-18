@@ -48,3 +48,25 @@ def stringconcatinate():
     string2="dumbo"
     print(string1+string2)
 stringconcatinate()
+
+def stringFormat():
+    age=23
+    txt=f"My age is {age:.2f}"
+    print(txt)
+stringFormat()
+
+def stringEscapeCharacter():
+    print("Escape character read comment in code")
+stringEscapeCharacter()
+'''
+Code	Result	
+\'	Single Quote	
+\\	Backslash	
+\n	New Line	
+\r	Carriage Return	
+\t	Tab	
+\b	Backspace	
+\f	Form Feed	
+\ooo	Octal value	
+\xhh	Hex value
+'''
