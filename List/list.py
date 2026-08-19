@@ -15,4 +15,5 @@ def DataTypeOfList():
     print(type(mylist3))
     global list4 
     list4 = list(("x","y","z"))
+    print(type(list4))
 DataTypeOfList()
