@@ -17,3 +17,25 @@ def DataTypeOfList():
     list4 = list(("x","y","z"))
     print(type(list4))
 DataTypeOfList()
+
+def ChangeInList():
+    mylist[1]=["chicken Alfredo"]
+    print(mylist)
+ChangeInList()
+
+def changeRangeOfItem():
+    mylist2[1:5]=[11,12]
+    print(mylist2)
+changeRangeOfItem()
+
+def InsertItem():
+    mylist3[2]=[False]
+    print(mylist3)
+    mylist.insert(6,"kiwi")
+    print(mylist)
+InsertItem()
+
+def appendItems():
+    mylist2.append(100)
+    print(mylist2)
+appendItems()
