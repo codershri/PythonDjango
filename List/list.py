@@ -38,4 +38,24 @@ InsertItem()
 def appendItems():
     mylist2.append(100)
     print(mylist2)
+
+    list2=["mango","lichi","jamun"]
+    mylist.extend(list2)
+    print(mylist)
 appendItems()
+
+def addIterable_tuple_set_dic():
+    thistuple=(1010,2020,3030)
+    mylist2.extend(thistuple)
+    print(mylist2)
+addIterable_tuple_set_dic()
+
+def removeDelete():
+    mylist.remove("grape")
+    print(mylist)
+    mylist2.pop(3)
+    del mylist3[0]
+    print(mylist2)
+    print(mylist3)
+
+removeDelete()
