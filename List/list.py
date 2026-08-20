@@ -57,5 +57,21 @@ def removeDelete():
     del mylist3[0]
     print(mylist2)
     print(mylist3)
+    print(mylist3.clear())
 
 removeDelete()
+
+#def loopsList():
+'''
+    for i in mylist2:
+        print(i)
+    for i in range(len(mylist)):
+        print(i)
+    while i<len(mylist):
+        print(i)
+        '''
+#loopsList()
+
+def sortinglist():
+    print(mylist2.sort())
+sortinglist()

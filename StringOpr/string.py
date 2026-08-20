@@ -59,14 +59,16 @@ def stringEscapeCharacter():
     print("Escape character read comment in code")
 stringEscapeCharacter()
 '''
-Code	Result	
-\'	Single Quote	
-\\	Backslash	
-\n	New Line	
-\r	Carriage Return	
-\t	Tab	
-\b	Backspace	
-\f	Form Feed	
-\ooo	Octal value	
-\xhh	Hex value
+#Code	Result	
+#\'	Single Quote	
+#\\	Backslash	
+#\n	New Line	
+#\r	Carriage Return	
+#\t	Tab	
+#\b	Backspace	
+#\f	Form Feed	
+#\ooo	Octal value	
+#\xhh	Hex value
 '''
+
+    
