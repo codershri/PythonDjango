@@ -1,0 +1,4 @@
+You need to activate virtual env everytime you start working on program/project.
+Windows:
+
+myworld\Scripts\activate.bat
