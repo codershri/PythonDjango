@@ -1,4 +1,12 @@
 You need to activate virtual env everytime you start working on program/project.
 Windows:
 
-myworld\Scripts\activate.bat
+(projectname)\Scripts\activate.bat
+
+TO run server
+python manage.py runserver
+
+To create new app
+python manage.py startapp appName 
+
+view.py is main file which gather information which we need to send back a proper response.
