@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>Members</h1>
+
+    <ul>
+        {% for x in mymembers %}
+        <li>{{ x.firstname }} {{ x.lastname }}{{x.Join_date}}</li>
+        {% endfor %}
+    </ul>
+
+</body>
+
+</html>
