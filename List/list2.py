@@ -36,3 +36,16 @@ def copylist3():
     thislist = list(fruits)
     print(thislist)
 copylist3()
+
+def joinlist():
+    list1=[1,2,3,4,5]
+    list3 = list1+fruits
+    print(list3)
+
+    for x in list1:
+        fruits.append(x)
+    print(fruits)
+
+    list1.extend(fruits)
+    print(list1)
+joinlist()
