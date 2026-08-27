@@ -10,7 +10,6 @@ def members(request):
     context = {
         'mymembers' : mymembers,
     }
-    #
     return HttpResponse(template.render(context,request))
 
 def details(request,id):
@@ -20,3 +19,7 @@ def details(request,id):
         'mymembers' : mymembers,
     }
     return HttpResponse(template.render(context,request))
+
+def main(request):
+    template = loader.get_template('main.html')
+    return HttpResponse(template.render())
