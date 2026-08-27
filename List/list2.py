@@ -21,3 +21,18 @@ def sortingListAlphnumerically():
     fruits.sort(reverse=True)
     print("Decending order-->",fruits)
 sortingListAlphnumerically()
+
+def copylist():
+    thislist = fruits.copy()
+    print(thislist)
+copylist()
+
+def copylist2():
+    thislist = fruits[:]
+    print(thislist)
+copylist2()
+
+def copylist3():
+    thislist = list(fruits)
+    print(thislist)
+copylist3()
